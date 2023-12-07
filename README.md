@@ -7,7 +7,7 @@
 
 ## 简介
 
-OSharp Vben Admin 是一个免费开源的中后台模版。基于vue-vben-admin开发，对接osharp后端，开箱即用，内置osharp用户，权限，系统管理模块与辅助工具类，使得osharp后台对接工作得以简化
+OSharp Vben Admin 是一个免费开源的中后台模版。基于 vue-vben-admin 开发，对接 osharp 后端，开箱即用，内置 osharp 用户，权限，系统管理模块与辅助工具类，使得 osharp 后台对接工作得以简化
 
 ## 特性
 
@@ -101,7 +101,10 @@ docker run --name vue-vben-admin -d -p 6666:80  -e VG_BASE_URL=http://localhost:
 
 ## 项目地址
 
-- [zionLZH/osharp-vben-admin](https://github.com/zionLZH/osharp-vben-admin) - 基于vben2.7
+- [osharp-vben-admin](https://github.com/ZhiMiTec/osharp-vben-admin) - 基于 vben2.10，积极维护中
+- [zionLZH/osharp-vben-admin](https://github.com/zionLZH/osharp-vben-admin) - 基于 vben2.7
+- [vue-vben-admin](https://github.com/anncwb/vue-vben-admin) - Vben 原项目完整版
+- [vue-vben-admin-thin-next](https://github.com/anncwb/vben-admin-thin-next) - Vben 原项目简化版
 
 ## 如何贡献
 
@@ -156,18 +159,17 @@ docker run --name vue-vben-admin -d -p 6666:80  -e VG_BASE_URL=http://localhost:
 
 [@ZhiMiTec](https://github.com/ZhiMiTec) [@zionLZH](https://github.com/zionLZH)
 
-## 感谢
+## Vben 原版维护者
 
-<img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" alt="JetBrains Logo (Main) logo." height='120'>
+[@Vben](https://github.com/anncwb) [@Jinmao](https://github.com/jinmao88)
 
 ## 交流
 
-`Osharp-vben-Admin` 是完全开源免费的项目，由杭州智密科技维护提供，内置osharp用户，权限，系统管理模块与辅助工具类，让osharp后台对接工作得以简化。
+`Osharp-vben-Admin` 是完全开源免费的项目，由杭州智密科技维护提供，内置 osharp 用户，权限，系统管理模块与辅助工具类，让 osharp 后台对接工作得以简化。
 
 `Vue-vben-Admin` 是完全开源免费的项目，在帮助开发者更方便地进行中大型管理系统开发，同时也提供 QQ 交流群使用问题欢迎在群内提问。
 
 - QQ 群 `569291866`
-
 
 ## Star 历史
 
