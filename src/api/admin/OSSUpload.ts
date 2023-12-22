@@ -7,6 +7,9 @@ export async function UploadFiles(file) {
     {
       url: '/api/path-to/UploadFiles',
       data: formData,
+      headers: {
+        'Content-Type': 'multipart/form-data;charset=UTF-8'
+      }
     },
     {
       apiUrl: '',
