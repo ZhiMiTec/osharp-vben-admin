@@ -57,7 +57,9 @@ export function transformRouteToMenu(routeModList: AppRouteModule[], routerMappi
       const realItem = item?.children?.[0];
       realItem && routeList.push(realItem);
     } else {
-      routeList.push(item);
+      if (item?.children && item?.children.length) {
+        routeList.push(item);
+      }
     }
   });
   // 提取树指定结构
