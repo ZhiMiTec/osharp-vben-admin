@@ -200,6 +200,7 @@ export const useUserStore = defineStore({
             RefreshToken: RefreshToken,
           });
           this.setToken(newToken);
+          await this.afterLoginAction()
           next();
         } catch (e) {
           refreshTokenHolder = null;
